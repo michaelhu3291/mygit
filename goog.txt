@@ -20,3 +20,8 @@ $ git push -u origin master   #仓库关联
 $ git push                    #远程仓库的提交（第二次及之后）
 --------------------- 
 
+$ git config user.name    #查看用户名
+$ git config user.email   #查看邮箱
+
+$ git config --global user.name "username" #修改用户名（全局）
+$ git config --global user.email "email"   #修改邮箱（全局）
